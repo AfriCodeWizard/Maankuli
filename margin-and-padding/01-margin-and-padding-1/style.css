@@ -1,3 +1,9 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 body {
   max-width: 600px;
   margin: 0 auto;
@@ -7,15 +13,19 @@ body {
   background: pink;
   border: 3px solid blue;
   /* CHANGE ME */
-  padding: 0px;
-  margin: 0px;
+  padding:10px;
+  margin: 10px;
+  margin-right: 110px;
+
 }
 
 .two {
   background: lightblue;
   border: 3px solid purple;
   /* CHANGE ME */
-  margin-bottom: 0px;
+  margin-bottom: 30px;
+  margin-right: 100px;
+
 }
 
 .three {
@@ -23,6 +33,6 @@ body {
   border: 3px solid brown;
   width: 200px;
   /* CHANGE ME */
-  padding: 0px;
-  margin-left: 0px;
+  padding: 30px;
+  margin-left: 300px;
 }
